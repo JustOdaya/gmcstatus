@@ -97,7 +97,7 @@ defaultContentLanguage: en
 #
 # Broken example:
 # baseUrl: /
-baseURL: https://example.com
+baseURL: https://status.galacticmc.us
 
 # For features like Last modified, you
 # need to use a Git repository. If you
@@ -158,20 +158,15 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
+    - name: Game server
+      description: The Minecraft server you play on.
+      category: Network
+    - name: Server Host
+      description: This is the host the server runs on. If this goes down, so does the server.
+      category: Nework
     - name: Website
-      description: The web frontend for the application.
-      category: Uncategorized
-      link: https://example.com/
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
-      category: Uncategorized
+      description: The website for GalacticMC
+      category: uncatigorized
 
   # What date format to use?
   #
@@ -292,7 +287,7 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
+  description: This is the official status page for GalacticMC. This will show issues with our server.
 
   # Tabs on homepage
   # Uncomment to enable.
