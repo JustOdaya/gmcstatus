@@ -143,12 +143,11 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
-      closed: true
-    - name: Empty Category
+    - name: Network
+      description: The server stuff.
+      closed: false
     - name: Uncategorized
-      untitled: true
+      untitled: false
 
   # These are your systems. Change them to
   # change the amount of components.
@@ -163,10 +162,10 @@ params:
       category: Network
     - name: Server Host
       description: This is the host the server runs on. If this goes down, so does the server.
-      category: Nework
+      category: Network
     - name: Website
       description: The website for GalacticMC
-      category: uncatigorized
+      category: Uncategorized
 
   # What date format to use?
   #
