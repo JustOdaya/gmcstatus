@@ -166,7 +166,9 @@ params:
     - name: Website
       description: The website for GalacticMC
       category: Uncategorized
-
+    - name: Cloudflare
+      description: The DNS provider for the GalacticMC domain. If this goes down, you may be unable to join the server.
+      category: Uncategorized
   # What date format to use?
   #
   # Hugo formatting docs:
