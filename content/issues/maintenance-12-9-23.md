@@ -8,5 +8,6 @@ affected:
 section: issue
 ---
 
-The server is gonna be offline for maintenance as we work on stuff.
-There is no ETA just yet but one will be announced when we are almost done.
+The server is gonna be offline for maintenance as we work on stuff.  
+We are trimming the world of ununsed chunks to keep the world's file size down.
+Your builds should not be affected.
