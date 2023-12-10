@@ -3,6 +3,7 @@ title: Planned Maintenance
 date: 2023-12-10 2:00:00
 informational: true
 pin: true
+resolved: false
 affected:
   - Game server
 severity: down
